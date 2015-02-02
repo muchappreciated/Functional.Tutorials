@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>27c27c62-9a6e-40d2-b4a6-bf21322c89ad</ProjectGuid>
+    <ProjectGuid>82a7e1c8-ffdc-449f-a0e1-092ceca79c0b</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Functional.Tutorials</RootNamespace>
-    <AssemblyName>Functional.Tutorials</AssemblyName>
+    <RootNamespace>Functional.Tutorial._02</RootNamespace>
+    <AssemblyName>Functional.Tutorial._02</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>Functional.Tutorials</Name>
+    <Name>Functional.Tutorial.02</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\Functional.Tutorials.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Functional.Tutorial._02.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\Functional.Tutorials.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Functional.Tutorial._02.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="Program.fs" />
     <None Include="App.config" />
-    <Compile Include="Helpers.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
